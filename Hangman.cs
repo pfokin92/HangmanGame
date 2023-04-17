@@ -80,6 +80,7 @@ namespace HangmanGame
             {
                 Console.WriteLine($"You lose\nWord:\n{guessWord}");
             }
+            Console.ReadLine();
         }
     }
 }
